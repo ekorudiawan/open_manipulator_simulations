@@ -15,8 +15,8 @@ sudo apt install ros-noetic-ros-controllers
 **Compile Simulation Model**
 ```bash
 cd ~ 
-mkdir -p omx/src
-cd omx/src
+mkdir -p omx_ws/src
+cd omx_ws/src
 git clone https://github.com/ekorudiawan/open_manipulator_simulations.git
 cd ..
 catkin_make
